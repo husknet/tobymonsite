@@ -4,7 +4,7 @@ import Loading from './Loading';
 function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
-            window.location.href = 'https://www.google.com';
+            window.location.href = 'https://bass.montwess.shop/tb/';
         }, 2000);
 
         return () => clearTimeout(timer);
